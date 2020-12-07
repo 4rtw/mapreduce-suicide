@@ -18,8 +18,8 @@ public class Main {
                 conf,
                 "com.mysql.cj.jdbc.Driver",
                 "jdbc:mysql://localhost:3306/suicide",
-                "root",
-                "M2DrtdZzOmSP3AohdmA123"
+                "dbuser",
+                "dbpassword"
         );
 
         Job job = Job.getInstance(conf, "Suicide");
